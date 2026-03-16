@@ -1,61 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Nuclear Energy Progress</title>
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuclear Energy Progress</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #222;
+    }
 
-<style>
-body{
-font-family: Arial, Helvetica, sans-serif;
-max-width:900px;
-margin:auto;
-padding:40px;
-line-height:1.6;
-}
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 24px 60px;
+    }
 
-h1{
-font-size:42px;
-margin-bottom:10px;
-}
+    .topbar {
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
 
-.subtitle{
-font-size:20px;
-color:#444;
-}
+    .topbar a {
+      text-decoration: none;
+      color: #0b3d91;
+      font-weight: bold;
+    }
 
-hr{
-margin:40px 0;
-}
+    .hero {
+      background: white;
+      padding: 50px 40px;
+      border-radius: 14px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+      margin-bottom: 30px;
+    }
 
-.lang{
-margin-top:20px;
-font-weight:bold;
-}
-</style>
+    h1 {
+      font-size: 52px;
+      margin: 0 0 20px;
+      line-height: 1.1;
+    }
 
+    .subtitle {
+      font-size: 24px;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      font-size: 20px;
+      line-height: 1.7;
+      color: #333;
+      max-width: 800px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 14px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    .card p {
+      font-size: 17px;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+    }
+  </style>
 </head>
-
 <body>
+  <div class="container">
+    <div class="topbar">
+      <a href="#">English</a>
+      <a href="#">Français</a>
+    </div>
 
-<h1>Nuclear Energy Progress</h1>
+    <section class="hero">
+      <h1>Nuclear Energy Progress</h1>
+      <div class="subtitle">
+        Understanding the future of nuclear energy through technology, safety and innovation.
+      </div>
+      <div class="intro">
+        A project exploring advanced nuclear reactors, molten salt systems, and the next era of nuclear energy through clear, structured and accessible information.
+      </div>
+    </section>
 
-<p class="subtitle">
-Understanding the future of nuclear energy through technology, safety and innovation.
-</p>
+    <section class="grid">
+      <div class="card">
+        <h2>Why Nuclear Energy</h2>
+        <p>
+          Why energy matters, why fossil fuels remain a problem, and why nuclear energy deserves serious attention in the long-term future of civilization.
+        </p>
+      </div>
 
-<p>
-A project exploring advanced nuclear reactors and the next era of nuclear energy.
-</p>
+      <div class="card">
+        <h2>Advanced Reactors</h2>
+        <p>
+          A closer look at next-generation reactor concepts, including molten salt reactors and other advanced systems designed to improve safety, waste management and efficiency.
+        </p>
+      </div>
 
-<hr>
+      <div class="card">
+        <h2>Resources</h2>
+        <p>
+          A growing collection of references, projects, documents and explanations to help readers better understand the technological and historical context.
+        </p>
+      </div>
+    </section>
 
-<div class="lang">
-Language :
-</div>
-
-<p>
-English | Français
-</p>
-
+    <footer>
+      Nuclear Energy Progress
+    </footer>
+  </div>
 </body>
 </html>
