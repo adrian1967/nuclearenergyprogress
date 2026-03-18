@@ -126,6 +126,27 @@ h1 span {
   font-weight: 500;
   color: #222;
 }
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1509395176047-4a66953fd231') center/cover no-repeat;
+  padding: 60px 24px;
+  border-radius: 16px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+.hero * {
+  position: relative;
+}
+  
 }
     
   </style>
