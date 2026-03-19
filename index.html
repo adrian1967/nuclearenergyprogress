@@ -1,25 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advanced Reactors</title>
-  
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <nav style="
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 0 24px;
-">
-  <a href="index.html" style="margin-right: 20px;">Home</a>
-  <a href="advanced-reactors.html" style="margin-right: 20px;">Advanced Reactors</a>
-  <a href="#">Resources</a>
-</nav>
-  
   <title>Nuclear Energy Progress</title>
+
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -32,6 +17,19 @@
       max-width: 1000px;
       margin: 0 auto;
       padding: 40px 24px 60px;
+    }
+
+    nav {
+      max-width: 900px;
+      margin: 20px auto 30px;
+      padding: 0 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #0b3d91;
     }
 
     .topbar {
@@ -57,19 +55,19 @@
     }
 
     h1 {
-  font-size: 52px;
-  margin: 0 0 20px;
-  line-height: 1.05;
-}
+      font-size: 52px;
+      margin: 0 0 20px;
+      line-height: 1.05;
+    }
 
-h1 span {
-  display: block;
-  font-size: 26px;
-  font-weight: normal;
-  color: #444;
-  margin-top: 8px;
-  letter-spacing: 1px;
-}
+    h1 span {
+      display: block;
+      font-size: 30px;
+      font-weight: 500;
+      color: #222;
+      margin-top: 8px;
+      letter-spacing: 1px;
+    }
 
     .subtitle {
       font-size: 24px;
@@ -84,6 +82,16 @@ h1 span {
       max-width: 800px;
     }
 
+    .notice {
+      background: #fff3cd;
+      border: 1px solid #ffeeba;
+      padding: 12px 16px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: #5c4b00;
+    }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -96,17 +104,21 @@ h1 span {
       padding: 24px;
       border-radius: 14px;
       box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+      text-align: center;
     }
 
     .card h2 {
-      margin-top: 0;
+      margin: 0;
       font-size: 24px;
     }
 
-    .card p {
-      font-size: 17px;
-      line-height: 1.6;
-      color: #444;
+    .card h2 a {
+      text-decoration: none;
+      color: #0b3d91;
+    }
+
+    .card h2 a:hover {
+      text-decoration: underline;
     }
 
     footer {
@@ -116,52 +128,69 @@ h1 span {
       text-align: center;
     }
 
+    @media (max-width: 600px) {
+      .container {
+        padding: 24px 16px 40px;
+      }
 
-  @media (max-width: 600px) {
-  h1 {
-    font-size: 44px;
-  }
+      nav {
+        padding: 0 8px;
+        font-size: 15px;
+      }
 
-  h1 span {
-    font-size: 30px;
-    font-weight: 500;
-    color: #222;
-  }
+      nav a {
+        margin-right: 12px;
+      }
 
-  .hero {
-    padding: 30px 20px;
-  }
+      .hero {
+        padding: 30px 20px;
+      }
 
-  
-}
-    
+      h1 {
+        font-size: 44px;
+      }
+
+      h1 span {
+        font-size: 24px;
+      }
+
+      .subtitle {
+        font-size: 20px;
+      }
+
+      .intro {
+        font-size: 18px;
+      }
+    }
   </style>
 </head>
+
 <body>
   <div class="container">
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="advanced-reactors.html">Advanced Reactors</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+
     <div class="topbar">
       <a href="#">English</a>
       <a href="#">Français</a>
     </div>
 
     <section class="hero">
-
       <h1>Nuclear Energy<br><span>in progress</span></h1>
-      
-      <div style="
-background:#fff3cd;
-border:1px solid #ffeeba;
-padding:12px 16px;
-border-radius:8px;
-margin-bottom:20px;
-font-size:16px;
-">
-⚠️ This website is currently under construction.  
-⚠️ Ce site est actuellement en construction.
-</div>
+
+      <div class="notice">
+        ⚠️ This website is currently under construction.<br>
+        ⚠️ Ce site est actuellement en construction.
+      </div>
+
       <div class="subtitle">
         Understanding the future of nuclear energy through technology, safety and innovation.
       </div>
+
       <div class="intro">
         A project exploring advanced nuclear reactors, molten salt systems, and the next era of nuclear energy through clear, structured and accessible information.
       </div>
@@ -170,24 +199,21 @@ font-size:16px;
     <section class="grid">
       <div class="card">
         <h2><a href="why-nuclear.html">Why Nuclear Energy</a></h2>
-        
       </div>
 
       <div class="card">
         <h2><a href="advanced-reactors.html">Advanced Reactors</a></h2>
-        
       </div>
 
       <div class="card">
-
         <h2><a href="resources.html">Resources</a></h2>
-
       </div>
     </section>
 
     <footer>
       Nuclear Energy Progress
     </footer>
+
   </div>
 </body>
 </html>
