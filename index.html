@@ -175,12 +175,19 @@
   margin-bottom: 20px;
 }
 
-/* Zone image (vide pour l'instant) */
-.hero-image {
-  height: 180px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, #dbeafe, #e6fffa);
-  margin-bottom: 20px;
+      .hero-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #cfe8ff, #d8ffe0);
+  margin: 20px 0 30px;
+}
+
+/* tablette et desktop */
+@media (min-width: 768px) {
+  .hero-image {
+    height: 260px;
+  }
 }
 
 /* Texte en bas */
