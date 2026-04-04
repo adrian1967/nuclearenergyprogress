@@ -69,7 +69,6 @@
   height: auto;
   display: block;
   border-radius: 14px;
-  margin: 20px 0 30px;
 }
 
   .hero-bottom p {
@@ -128,7 +127,10 @@
     text-align: center;
   }
 
-
+.hero-picture {
+  display: block;
+  margin: 20px 0 30px;
+}
 
   /* Téléphone */
   @media (max-width: 600px) {
@@ -219,7 +221,7 @@
     <!-- image plus tard -->
   </div>
 
-      <picture>
+      <picture class="hero-picture">
   <source srcset="static/hero-mobile.png" media="(max-width: 768px)">
   <img src="static/hero-desktop.png" alt="Nuclear Energy Progress" class="hero-image">
 </picture>
