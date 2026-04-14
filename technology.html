@@ -60,13 +60,19 @@
       text-align: center;
       max-width: 700px;
       margin: 0 auto 20px;
+
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      
     }
 
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 20px;
+      gap: 24px;
       margin-top: 30px;
+      
     }
 
     .card {
@@ -79,6 +85,9 @@
       cursor: pointer;
       color: inherit;
       display: block;
+
+      text-decoration: none;
+      
     }
 
     .card:hover {
@@ -104,6 +113,31 @@
       font-size: 14px;
       color: #666;
     }
+
+
+    .tech-illustration {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto 20px;
+  border-radius: 12px;
+}
+
+/* AJOUT IMPORTANT */
+@media (max-width: 768px) {
+  .tech-illustration {
+    max-width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+  }
+}
+
+
+
+
+
+    
 
     @media (max-width: 600px) {
       .container {
