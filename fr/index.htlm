@@ -205,13 +205,13 @@
 
   <div class="container">
 
-  <div class="topbar">
-   <a href="../index.html">English</a>
-   <span>|</span>
-   <a href="../fr/index.html">Français</a>
-   <span>|</span>
-   <a href="../pt/index.html">Português</a>
-   </div>
+   <div class="topbar">
+  <a href="../index.html">English</a>
+  <span>|</span>
+  <a href="index.html">Français</a>
+  <span>|</span>
+  <a href="../pt/index.html">Português</a>
+  </div>
     
     <section class="hero">
 
