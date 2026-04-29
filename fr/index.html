@@ -19,20 +19,26 @@
     padding: 40px 24px 60px;
   }
 
-  .topbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: 10px 0 15px;
-    font-size: 15px;
-  }
 
-  .topbar a {
-    text-decoration: none;
-    color: #0b3d91;
-    font-weight: bold;
-  }
+.topbar a {
+  text-decoration: none;
+  color: #0b3d91;
+  font-weight: bold;
+  opacity: 0.6;
+  transition: all 0.2s ease;
+}
+
+.topbar a:hover {
+  opacity: 1;
+}
+
+.topbar a.active-lang {
+  opacity: 1;
+  font-size: 17px;
+  border-bottom: 2px solid #0b3d91;
+}
+
+  
 
   .top-notice {
     width: 100%;
