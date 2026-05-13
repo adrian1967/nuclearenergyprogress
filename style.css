@@ -216,6 +216,8 @@ footer {
   border-radius: 16px;
 }
 
+
+
 /* tablette */
 @media (min-width: 601px) and (max-width: 900px) {
   .tech-illustration {
@@ -224,11 +226,15 @@ footer {
 }
 
 /* téléphone */
+
 @media (max-width: 600px) {
   .tech-illustration {
-    max-width: 100%;
-    max-height: 380px;
-    object-fit: contain;
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    margin: 0 auto 24px;
+    display: block;
   }
+}
+  
 }
