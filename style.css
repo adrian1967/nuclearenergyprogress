@@ -236,4 +236,15 @@ footer {
     display: block;
   }
 }
-  
+  /* === CORRECTION FINALE TECHNOLOGY MOBILE === */
+@media (max-width: 600px) {
+  .tech-illustration {
+    width: 82%;
+    max-width: 420px;
+    max-height: none;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto 24px;
+    display: block;
+  }
+}
