@@ -248,3 +248,17 @@ footer {
     display: block;
   }
 }
+
+/* === TECHNOLOGY MOBILE IMAGE SIZE === */
+@media (max-width: 600px) {
+  .tech-illustration {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    margin: 0 auto 28px;
+  }
+}
+
+
