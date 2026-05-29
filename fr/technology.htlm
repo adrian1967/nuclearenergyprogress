@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technologie - Nuclear Energy Progress</title>
 
+  <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="topbar">
+      <a href="../technology.html">English</a>
+      <span>|</span>
+      <a href="technology.html" class="active-lang">Français</a>
+      <span>|</span>
+      <a href="../pt/technology.html">Português</a>
+    </div>
+
+    <a href="index.html" class="back">← Retour à l'accueil</a>
+
+    <h1>Conceptions et innovations de réacteurs</h1>
+
+    <picture>
+      <source srcset="../static/technology-mobile.PNG" media="(max-width: 768px)">
+      <img
+        src="../static/technology-desktop.jpg"
+        alt="Illustration des étapes du développement des réacteurs nucléaires"
+        class="tech-illustration"
+      >
+    </picture>
+
+    <div class="intro">
+
+      <p>
+        Comparée aux autres sources d'énergie, l'énergie nucléaire se distingue par sa complexité technologique, qui se traduit par un processus de développement plus long et plus structuré.
+      </p>
+
+      <p>
+        Seul un petit nombre de concepts atteignent le stade de prototype, et un nombre encore plus restreint aboutissent à des réacteurs exploités commercialement.
+      </p>
+
+      <p>
+        Dans cette section, les concepts et innovations de réacteurs sont classés selon leur stade de développement :
+      </p>
+
+    </div>
+
+    <section class="grid">
+
+      <a href="design.html" class="card">
+        <h2>🧠 Réacteurs en phase de conception</h2>
+      </a>
+
+      <a href="prototype.html" class="card">
+        <h2>⚙️ Réacteurs prototypes</h2>
+      </a>
+
+      <a href="commercial.html" class="card">
+        <h2>🏭 Réacteurs commerciaux</h2>
+      </a>
+
+    </section>
+
+    <footer>
+      Nuclear Energy Progress
+    </footer>
+
+  </div>
+
+</body>
+</html>
