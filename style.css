@@ -1,5 +1,3 @@
-
-
 /* === BASE === */
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -50,8 +48,7 @@ p {
 
 /* === IMAGES === */
 .hero-image,
-.illustration,
-.tech-illustration {
+.illustration {
   display: block;
   width: 100%;
   max-width: 900px;
@@ -62,6 +59,16 @@ p {
 
 .illustration {
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+/* Image spéciale Technology */
+.tech-illustration {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  margin: 0 auto 28px;
+  border-radius: 16px;
 }
 
 /* === HERO HOME === */
@@ -169,6 +176,13 @@ footer {
   color: #666;
 }
 
+/* === TABLETTE === */
+@media (min-width: 601px) and (max-width: 900px) {
+  .tech-illustration {
+    max-width: 680px;
+  }
+}
+
 /* === MOBILE === */
 @media (max-width: 600px) {
   .container {
@@ -201,61 +215,9 @@ footer {
   }
 
   .tech-illustration {
-    max-height: 420px;
-    object-fit: cover;
-  }
-}
-
-
-/* === CORRECTION SPECIALE PAGE TECHNOLOGY === */
-.tech-illustration {
-  max-width: 760px;
-  width: 100%;
-  margin: 0 auto 24px;
-  display: block;
-  border-radius: 16px;
-}
-
-
-
-/* tablette */
-@media (min-width: 601px) and (max-width: 900px) {
-  .tech-illustration {
-    max-width: 680px;
-  }
-}
-
-/* téléphone */
-
-@media (max-width: 600px) {
-  .tech-illustration {
-    width: 100%;
-    max-width: 520px;
-    height: auto;
-    margin: 0 auto 24px;
-    display: block;
-  }
-}
-  /* === CORRECTION FINALE TECHNOLOGY MOBILE === */
-@media (max-width: 600px) {
-  .tech-illustration {
-    width: 82%;
-    max-width: 420px;
-    max-height: none;
-    height: auto;
-    object-fit: contain;
-    margin: 0 auto 24px;
-    display: block;
-  }
-}
-
-/* === TECHNOLOGY MOBILE IMAGE SIZE === */
-@media (max-width: 600px) {
-  .tech-illustration {
     width: 100%;
     max-width: 560px;
     height: auto;
-    max-height: none;
     object-fit: contain;
     margin: 0 auto 28px;
   }
