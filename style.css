@@ -178,11 +178,13 @@ p {
 }
 
 /* === FOOTER === */
+
 footer {
   margin-top: 40px;
   text-align: center;
   font-size: 14px;
   color: #666;
+  line-height: 1.8;
 }
 
 /* === TABLETTE === */
